@@ -2,6 +2,11 @@
 
 An open source Othello application run on Command line console.
 
+## Dependency
+
+This application needs Graphene othello library (can be installed by swift package update command)
+* https://github.com/ysnrkdm/Graphene
+
 ## Run on
 
 - Linux (Ubuntu)

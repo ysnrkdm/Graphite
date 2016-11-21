@@ -8,4 +8,8 @@ update: Package.swift
 
 .PHONY: run
 run: build
-	 .build/release/Graphite
+	.build/release/Graphite
+
+.PHONY: xcodeproj
+xcodeproj:
+	swift package generate-xcodeproj
